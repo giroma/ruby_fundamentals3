@@ -1,6 +1,6 @@
 fav_colors = ["blue", "purple", "cyan", "wine"]
 age = [41, 25, 30 ,64, 30]
-coin = ["heads", "heads", "tails", "heads", "tails"]
+coins = ["heads", "heads", "tails", "heads", "tails"]
 artists = ["drake", "queen", "bob dylan"]
 colors = [:blue, :purple, :cyan, :wine]
 
@@ -20,12 +20,20 @@ movies = {
 cities = {
   toronto: 3453675,
   sofia: 1453000,
-  "San Franscisco"
+  "San Franscisco" => 14956748
 }
 
 names = {
-  ari: 24,
+  ari: 30,
   cait: 31,
+  kevin: 11,
   mark: 41,
   richard: 53
 }
+
+          # EXERCISE 1
+# puts coins
+# puts fav_colors[0]
+# puts names.sort_by{|k, v| v}
+# age << 0
+# puts movies["Die Hard"]
