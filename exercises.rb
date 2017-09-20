@@ -37,3 +37,13 @@ names = {
 # puts names.sort_by{|k, v| v}
 # age << 0
 # puts movies["Die Hard"]
+          # EXERCISE 2
+# puts colors.last
+# cities[:ny] = 4444
+# puts cities
+
+# puts coins.reverse
+
+# puts cities[:sofia]
+
+artists.each { |artist|  puts "#{artist} is great!"}
