@@ -90,5 +90,56 @@ names = {
 # age.map! { |age| age + 1}  # great for changing each value
 # puts age
 
-colors.push("blue", "red") 
-puts colors
+# colors.push("blue", "red")
+# puts colors
+
+                # EXERCISE 6
+movies_by_year = {
+  1999 => ["The Matrix", "Star Wars: Episode 1", "The Mummy"],
+  2009 => ["Avatar", "Star Trek", "District 9"],
+  2019 => ["How to Train Your Dragon 3", "Toy Story 4", "Star Wars: Episode 9"]
+}
+
+phone = [[1,2,3],[4,5,6],[7,8,9],["*",0,"#"]]
+
+countries = [
+country_one = {
+  :name => "Canada",
+  :continent => "North America",
+  :island => false
+},
+
+country_two = {
+  :name => "Israel",
+  :continent => "Asia",
+  :island => false
+},
+
+country_three = {
+  :name => "England",
+  :continent => "Europe",
+  :island => true
+}
+]
+
+
+# bart = []
+# 20.times do |i|
+#   bart[i] = "I will not skateboard"
+# end
+
+# to_50 = []
+# (1..50).each { |i| to_50[i - 1] = i  }
+# puts to_50
+#
+# sum = 0
+# to_50.each { |num| sum += num }
+# puts sum
+
+# to_50 = []
+# (1..50).each { |i|
+#   3.times do |j|
+#   to_50[i - 1] = i
+#   end
+# }
+# puts to_50
