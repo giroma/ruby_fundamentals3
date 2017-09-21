@@ -85,4 +85,10 @@ names = {
 #   end
 # end
 
-puts colors.last(2)
+# puts colors.last(2)
+
+# age.map! { |age| age + 1}  # great for changing each value
+# puts age
+
+colors.push("blue", "red") 
+puts colors
