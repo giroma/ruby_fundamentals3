@@ -136,10 +136,33 @@ country_three = {
 # to_50.each { |num| sum += num }
 # puts sum
 
-# to_50 = []
+# to_150 = []
+# j = 0
 # (1..50).each { |i|
-#   3.times do |j|
-#   to_50[i - 1] = i
+#   3.times do
+#   to_150[j] = i
+#   j += 1
 #   end
 # }
-# puts to_50
+# puts to_150
+
+# puts countries.select {|item| item[:island] == false }
+
+
+                            # EXERCISE 7
+# expenses = [250, 7.95, 30.95, 16.50, 14250, 1133.44]
+#
+# puts expenses.reduce(:+)
+
+grocery_list = ["carrots", "toilet paper", "apples", "salmon", "cheese", "bread"]
+
+grocery_list << "rice"
+
+# grocery_list.each {|item| puts "*#{item}"}
+
+# puts grocery_list.count
+#
+# puts grocery_list.include? 'bread'
+# grocery_list.sort!
+grocery_list.delete("salmon")
+grocery_list.each {|item| puts "*#{item}"}
