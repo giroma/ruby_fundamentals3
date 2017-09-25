@@ -45,3 +45,4 @@ end
 
 project[:steps][7][:person] = project[:committee]
 puts project
+herer
