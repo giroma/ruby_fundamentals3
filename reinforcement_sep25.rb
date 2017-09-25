@@ -31,9 +31,17 @@ project = {
   ]
 }
 index_number = 0
-project[:steps].each do
-project[:steps][index_number][:person] = "Stella"
-index_number += 1
+committee_count = 0
+3.times do
+  2.times do
+    project[:steps][index_number][:person] = project[:committee][committee_count]
+
+
+    index_number += 1
+
+  end
+  committee_count += 1
 end
 
+project[:steps][7][:person] = project[:committee]
 puts project
